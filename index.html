@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alex Perera | Software Engineer, QA and Business Analyst</title>
+<meta name="description" content="Portfolio of Alex Perera: full stack, web and mobile development, QA testing, business analysis and project management.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a href="#home" class="logo">Alex Perera</a>
+  <nav>
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+    <button id="theme" aria-label="Toggle dark mode">Theme</button>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <p class="hello">Hi, I'm Alex.</p>
+  <h1>I build software, test it, and make sure it solves the right problem.</h1>
+  <p class="lead">Full stack developer with hands-on experience in QA, business analysis and project delivery.</p>
+  <div class="cta">
+    <a class="btn primary" href="#projects">View my work</a>
+    <a class="btn" href="cv/alex-perera-cv.pdf">Download CV</a>
+    <a class="btn" href="https://github.com/yourusername">GitHub</a>
+    <a class="btn" href="https://linkedin.com/in/yourusername">LinkedIn</a>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About</h2>
+  <p>I'm a graduate in Information Technology based in Sri Lanka. I enjoy the whole life of a product: gathering requirements, building features, testing them and delivering on time. I'm looking for a role where I can grow in software development or quality and analysis work.</p>
+  <p class="roles-note"><strong>Looking for:</strong> Software Engineer, Web, Full Stack or Mobile Developer, QA Engineer, Business Analyst, Project Manager.</p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <div><h3>Development</h3><p>JavaScript, TypeScript, React, Node.js, Express, HTML, CSS, Python, Java, Flutter, SQL, MongoDB, REST APIs, Git</p></div>
+    <div><h3>Quality assurance</h3><p>Test planning, test cases, bug reporting, Selenium, Cypress, Postman, JIRA, regression and UAT testing</p></div>
+    <div><h3>Analysis and management</h3><p>Requirements gathering, user stories, BPMN, UML, wireframing (Figma), Scrum, Kanban, Gantt charts, risk management</p></div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="filters" role="group" aria-label="Filter projects by role">
+    <button class="chip active" data-f="all">All</button>
+    <button class="chip" data-f="software">Software</button>
+    <button class="chip" data-f="web">Web</button>
+    <button class="chip" data-f="fullstack">Full Stack</button>
+    <button class="chip" data-f="mobile">Mobile</button>
+    <button class="chip" data-f="qa">QA</button>
+    <button class="chip" data-f="ba">Business Analyst</button>
+    <button class="chip" data-f="pm">Project Manager</button>
+  </div>
+
+  <div class="grid">
+    <article class="card" data-tags="software fullstack web">
+      <h3>ShopEasy: online store</h3>
+      <p class="meta">Full Stack Developer · React, Node.js, MongoDB</p>
+      <p><strong>Problem:</strong> Small shops needed a simple way to sell online.<br><strong>Result:</strong> Built a store with login, cart, payments and an admin dashboard.</p>
+      <p class="links"><a href="#">Live demo</a> <a href="#">Source code</a></p>
+    </article>
+    <article class="card" data-tags="web">
+      <h3>Café Lanka: restaurant website</h3>
+      <p class="meta">Web Developer · HTML, CSS, JavaScript</p>
+      <p><strong>Problem:</strong> A local café had no online presence.<br><strong>Result:</strong> A fast, responsive site that scores 95+ on Lighthouse.</p>
+      <p class="links"><a href="#">Live demo</a> <a href="#">Source code</a></p>
+    </article>
+    <article class="card" data-tags="mobile software">
+      <h3>FitTrack: fitness app</h3>
+      <p class="meta">Mobile Developer · Flutter, Firebase</p>
+      <p><strong>Problem:</strong> Users wanted one place to log workouts.<br><strong>Result:</strong> Android app with workout logging, charts and reminders.</p>
+      <p class="links"><a href="#">Demo video</a> <a href="#">Source code</a></p>
+    </article>
+    <article class="card" data-tags="qa">
+      <h3>ShopEasy test suite</h3>
+      <p class="meta">QA Engineer · Cypress, Postman, JIRA</p>
+      <p><strong>Problem:</strong> Releases kept breaking checkout.<br><strong>Result:</strong> 120 test cases, 40 automated tests and 25 documented bugs.</p>
+      <p class="links"><a href="#">Test plan</a> <a href="#">Bug reports</a> <a href="#">Automation repo</a></p>
+    </article>
+    <article class="card" data-tags="ba">
+      <h3>Clinic booking system: requirements</h3>
+      <p class="meta">Business Analyst · SRS, BPMN, Figma</p>
+      <p><strong>Problem:</strong> A clinic managed appointments on paper.<br><strong>Result:</strong> SRS document, 30 user stories, process flows and wireframes.</p>
+      <p class="links"><a href="#">SRS document</a> <a href="#">Wireframes</a></p>
+    </article>
+    <article class="card" data-tags="pm">
+      <h3>University project delivery</h3>
+      <p class="meta">Project Manager · Scrum, Jira, Gantt</p>
+      <p><strong>Problem:</strong> A team of 5 needed to ship in 12 weeks.<br><strong>Result:</strong> Delivered on time across 6 sprints with a tracked risk register.</p>
+      <p class="links"><a href="#">Project plan</a> <a href="#">Sprint board</a></p>
+    </article>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Experience and education</h2>
+  <ul class="timeline">
+    <li><strong>Junior Software Engineer</strong>, Example Tech (Pvt) Ltd<span>2025 to present</span><br>Built REST APIs and React features, wrote automated tests and joined sprint planning.</li>
+    <li><strong>QA Intern</strong>, Sample Solutions<span>2024</span><br>Wrote test cases, logged defects in JIRA and ran regression tests.</li>
+    <li><strong>BSc in Information Technology</strong>, Example University<span>2021 to 2025</span><br>Second Class Upper. Final-year project: clinic booking system.</li>
+    <li><strong>Certifications</strong><br>ISTQB Foundation, Google Project Management, Meta Front-End Developer</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Want to work together? Send me a message and I'll reply within two days.</p>
+  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <label>Name <input name="name" required></label>
+    <label>Email <input type="email" name="email" required></label>
+    <label>Message <textarea name="message" rows="4" required></textarea></label>
+    <button class="btn primary" type="submit">Send message</button>
+  </form>
+  <p class="direct">Or email <a href="mailto:alex@example.com">alex@example.com</a></p>
+</section>
+</main>
+
+<footer>© <span id="year"></span> Alex Perera</footer>
+<script src="script.js"></script>
+</body>
+</html>
